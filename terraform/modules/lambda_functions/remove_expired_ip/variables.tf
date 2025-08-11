@@ -13,8 +13,8 @@ variable "runtime" {
   type        = string
 }
 
-variable "source_code_path" {
-  description = "The path to the Lambda function's source code."
+variable "filename" {
+  description = "The path to the Lambda function's deployment package."
   type        = string
 }
 
